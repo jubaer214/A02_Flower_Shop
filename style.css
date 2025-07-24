@@ -141,15 +141,20 @@ nav li{
 .dis_box1{
     background-image: url(./assets/deal-bloom.png);
     background-repeat: no-repeat;
-    text-align: center;
-
+    /* text-align: center; */
+    background-size: cover;
+    
 }
 .dis_box2{
     background-image: url(./assets/deal-ana.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .dis_box3{
     background-image: url(./assets/deal-zabo.png);
     background-repeat: no-repeat;
-    grid-column: span 2;
+    grid-row: span ;
+    
+    background-size: cover;
 }
