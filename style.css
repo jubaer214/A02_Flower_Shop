@@ -130,6 +130,26 @@ nav li{
     }
 }
 
+/* discount box section */
 .discount_box_container{
     color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 130px;
+    gap: 30px;
+}
+.dis_box1{
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.dis_box2{
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+}
+.dis_box3{
+    background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    grid-column: span 2;
 }
