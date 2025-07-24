@@ -56,3 +56,42 @@ li{
 .text1{
     font-size: 50px;
 }
+.p2{
+    color: #00000088;
+}
+.plants{
+    text-align: center;
+    margin: 60px 10%;
+}
+.flower-container{
+    margin: 20px 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.flower-box{
+    text-align: center;
+}
+.flower-box p{
+    font-weight: 800;
+}
+.flower-box h4{
+    font-weight: normal;
+}
+.flower-box img{
+    width: 100%;
+}
+.btn{
+    width: 100%;
+    background-color: #E95A08;
+    padding: 10px;
+    border: none;
+}
+
+/* flower box responsive */
+@media screen and (max-width: 567px){
+    .flower-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 8%;
+    }
+}
