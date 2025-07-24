@@ -25,17 +25,34 @@ li{
     display: flex;
     align-items: center;
 }
+.hero{
+    display: flex; 
+    margin: 20px 130px;
+    align-items: end;
+}
 /* header responsive */
 @media screen and (max-width: 567px){
     .ul{
-        display: hidden;
+        visibility: hidden;
+    }
+    .ul_img{
+        visibility: visible;
+    }
+    .header{
+        margin: 20px 8%;
+        
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px;
+        
+    }
+    .content-hero{
+        margin: 20px 8%;
     }
 }
-.hero{
-    display: flex;
-    margin: 20px 10%;
-    align-items: end;
-}
+
 .text1{
     font-size: 50px;
 }
