@@ -1,0 +1,41 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.cart{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10%;
+    align-items: center;
+}
+.ul{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.ul_img{
+    display: flex;
+    align-items: center;
+}
+/* header responsive */
+@media screen and (max-width: 567px){
+    .ul{
+        display: hidden;
+    }
+}
+.hero{
+    display: flex;
+    margin: 20px 10%;
+    align-items: end;
+}
+.text1{
+    font-size: 50px;
+}
