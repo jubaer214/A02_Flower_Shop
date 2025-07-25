@@ -195,3 +195,16 @@ nav li{
     font-size: 20px;
     font-weight: bold;
 }
+
+/* discount section responsive */
+@media screen and (max-width: 567px){
+    .dis_box3{
+        width: 400px;
+        height: 250px;
+        
+    }
+    .discount_box_container{
+        flex-direction: column;
+        margin: 20px 4%;   
+    }
+}
