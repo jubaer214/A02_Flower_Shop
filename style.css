@@ -86,6 +86,12 @@ nav li{
     background-color: #E95A08;
     padding: 10px;
     border: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #c74f0a;
 }
 
 /* flower box responsive */
@@ -246,4 +252,21 @@ nav li{
     #email_input{
         width: 300px;
     }
+}
+
+.a2_decor{
+    color: #00000088;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 130px;
+}
+.icon_footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+
 }
