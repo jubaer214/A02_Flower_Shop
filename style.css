@@ -208,3 +208,32 @@ nav li{
         margin: 20px 4%;   
     }
 }
+
+/* contact section */
+.contact{
+    background-image: url(./assets/news-letter-bg.png);
+    width:  full;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+}
+#email_input{
+    width: 500px;
+    padding: 12px;
+    border: none;
+}
+.sub_btn{
+    position: relative;
+    left: -3px;
+    padding: 12px;
+    background-color: #E95A08;
+    color: aliceblue;
+    border: #E95A08;
+    font-weight: bold;
+
+}
