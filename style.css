@@ -270,3 +270,19 @@ nav li{
     text-align: center;
 
 }
+
+/* footer responsive  */
+@media screen and (max-width: 567px){
+    .footer{
+        flex-direction: column;
+        margin: 20px 4%;
+    }
+    .icon_footer{
+        display: flex;
+    }
+    .footer_opt{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+}
