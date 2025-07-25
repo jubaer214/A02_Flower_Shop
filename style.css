@@ -237,3 +237,13 @@ nav li{
     font-weight: bold;
 
 }
+
+/* contact section responsive */
+@media screen and (max-width: 567px){
+    .contact{
+        height: 450px;
+    }
+    #email_input{
+        width: 300px;
+    }
+}
